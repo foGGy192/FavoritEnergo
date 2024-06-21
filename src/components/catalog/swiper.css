@@ -1,0 +1,42 @@
+.swiper {
+  margin-left: 0px;
+}
+.swiper-slide {
+  width: fit-content;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  content: url(/src/assets/images/swiperCatalog.svg);
+  border-radius: 100px;
+  border: 1px solid #282928;
+  padding: 10px;
+  width: auto;
+  cursor: pointer;
+}
+.swiper-button-prev {
+  transform: rotate(180deg);
+}
+
+.swiper-pagination-bullet-active {
+  border-radius: 40px;
+  background-color: #ccf437;
+}
+.swiper-pagination-bullet {
+  border-radius: 40px;
+  width: 72px;
+  height: 6px;
+  border: 1px solid black;
+}
+
+.swiper-slide img:last-child {
+  opacity: 0;
+}
+.swiper-slide-active img:last-child {
+  opacity: 1;
+}

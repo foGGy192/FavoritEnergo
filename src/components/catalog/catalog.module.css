@@ -1,0 +1,194 @@
+.catalog{
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-between;
+}
+.catalogSection{
+    margin-top: 83px;
+}
+.sectionTitle{
+    color: #282829;
+    font-family: Cakra;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+.catalogMenu{
+    padding-left: 51px;
+    overflow: hidden;
+}
+.switchArrows{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+.catalogArrow{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid #282928;
+}
+.catalogArrow:first-child{
+    transform: rotate(180deg);
+}
+.title{
+    color: #282829;
+    font-family: Cakra;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.subtitle{
+    width: fit-content;
+    color: #282829;
+    font-family: Cakra;
+    font-size: 40px;
+    font-weight: 400;
+    border-radius: 40px;
+    background-color: #CCF437;
+    padding: 10px 45px;
+    margin-top: 8px;
+}
+.text{
+    width: 522px;
+    color: rgba(40, 40, 41, 0.70);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 600;
+}
+.menuText{
+    margin-top: 24px;
+}
+.image{
+    position: relative;
+    width: 322px;
+    height: 263px;
+    flex-shrink: 0;
+}
+.arrowSlide{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    border-radius: 170px;
+    background-color: #CCF437;
+    padding: 10px;
+    cursor: pointer;
+}
+.catalogSwiper{
+    margin-top: 46px;
+}
+.catalogSwiper{
+    width: 735px;
+}
+
+.widgets{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 30px 30px;
+}
+.widget{
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.widgetTitle{
+    color: #282829;
+    font-family: Raleway;
+    font-size: 64px;
+    font-weight: 600;
+    padding: 46px 0 0 52px;
+}
+.widget:first-child{
+    grid-column: span 2;
+    position: relative;
+    overflow: hidden;
+    width: 772px;
+    height: 423px;
+}
+.widgetImage{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.widget:nth-child(2){
+    background-image: url(/src/assets/images/bottomWidget.png);
+    width: 280px;
+    height: 315px;
+}
+.widgetContent{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 13px;
+    border-radius: 10px;
+    margin: 33px 12px 0 17px;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+.textWidget{
+    color: #FFF;
+    text-align: right;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+}
+.widgetButtons{
+    display: flex;
+    align-items: center;
+}
+.widgetButton{
+    border-radius: 170px;
+    background-color: #CCF437;
+    padding: 10px 25px;
+    color: #6AAC28;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.widgetButton:last-child{
+    padding: 10px;
+}
+.widget:last-child{
+    background-image: url(/src/assets/images/botWidget.png);
+    width: 462px;
+    height: 315px;
+}
+.widgetsContent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 153px 42px 0px 24px;
+}
+.textsWidget{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.pagination{
+    display: flex;
+    margin-top: 20px;
+    gap: 7px;
+}
+
+.paginationBar{
+    width: 72px;
+    height: 6px;
+    border-radius: 40px;
+    background-color: rgba(40, 40, 41, 0.10);
+}
+
+.activeBar{
+    background-color: #CCF437;
+}
+

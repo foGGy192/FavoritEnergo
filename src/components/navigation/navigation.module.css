@@ -1,0 +1,31 @@
+.nav {
+	margin-top: 40px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	color: #282829;
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.logoSpan {
+	font-weight: 700;
+}
+
+.list {
+	display: flex;
+	gap: 30px;
+}
+
+.listItem {
+	cursor: pointer;
+}
+

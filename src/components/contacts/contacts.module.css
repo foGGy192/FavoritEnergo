@@ -1,0 +1,57 @@
+.contacts{
+    margin-top: 200px;
+}
+.contacts .globalWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.contactsText{
+    flex-direction: column;
+    gap: 2px;
+    .title{
+        color: #282829;
+        font-family: Cakra;
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .text{
+        text-align: center;
+    }
+}
+.phoneForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    border-radius: 20px;
+    background-color: #CCF437;
+    padding: 30px 126px;
+}
+.phoneLabel{
+    color: #282829;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+}
+.phoneInput{
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid rgba(40, 40, 41, 0.50);
+    outline: 0;
+    color: rgba(40, 40, 41, 0.60);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.phoneSubmit{
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 10px 40px;
+    cursor: pointer;
+}
